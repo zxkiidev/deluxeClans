@@ -1,0 +1,55 @@
+#   ____       _                 ____ _                 
+#  |  _ \  ___| |_   ___  _____ / ___| | __ _ _ __  ___ 
+#  | | | |/ _ \ | | | \ \/ / _ \ |   | |/ _` | '_ \/ __|
+#  | |_| |  __/ | |_| |>  <  __/ |___| | (_| | | | \__ \
+#  |____/ \___|_|\__,_/_/\_\___|\____|_|\__,_|_| |_|___/
+#                                                                                                                          
+
+#  DeluxeClans by Vediikaz | discord.gg/VUxkyXzXqN |
+#
+#  Plugin de clanes ligero y gratuito para servidores Minecraft.
+#  Visita la web para más información y soporte.
+#  ¡Gracias por usar DeluxeClans!
+
+#  Configuración principal
+prefix: "&6[&fDeluxe&l&3Clans&6] &r" 
+
+#  Edita este archivo para personalizar los mensajes y opciones del plugin.
+#  No olvides reiniciar el servidor o usar /reload para aplicar los cambios.
+#  Formato de los mensajes: Usa & para colores (ejemplo: &a para verde).
+
+#  Más información sobre los códigos de color en https://minecraft.fandom.com/wiki/Formatting_codes
+
+# Opciones del plugin
+options:
+  maxClanNameLength: 20       # Longitud máxima del nombre del clan
+  minClanNameLength: 3        # Longitud mínima del nombre del clan
+  maxClansPerPlayer: 1        # Número máximo de clanes que un jugador puede tener
+  allowClanJoinRequests: true # Permitir unirse a clanes
+  clanTagFormat: "[{tag}]"    # Formato del tag del clan (usa {tag} para el nombre)
+
+# Mensajes del plugin
+messages:
+  reloaded: "&a✔ Configuración recargada correctamente."
+  noPermission: "&c✖ No tienes permiso para hacer esto."
+  usage: "&eUso correcto: &f/clan &7<crear|unirse|salir|disolver|info|ayuda>"
+  noClanName: "&c✖ Debes especificar un nombre de clan."
+  invalidClanLength: "&c✖ El nombre del clan no cumple con la longitud permitida."
+  alreadyHasClan: "&c✖ Ya perteneces a un clan."
+  clanCreated: "&a✔ ¡Has creado tu clan con éxito!"
+  joinDisabled: "&c✖ Unirse a clanes está deshabilitado."
+  clanJoined: "&a✔ Te has unido al clan &f{clan}&a correctamente."
+  clanLeft: "&e➜ Has salido de tu clan."
+  clanDisbanded: "&c✖ Has disuelto tu clan."
+  noClanAssigned: "&c✖ No perteneces a ningún clan."
+  invalidSubcommand: "&c✖ Subcomando inválido. Usa &e/clan ayuda"
+  errorLoadingClans: "&c✖ Error cargando los datos de los clanes."
+  errorCreatingClan: "&c✖ Ha ocurrido un error al crear el clan."
+  clanInfo: |
+    {prefix}
+    &b&lInformación del Clan
+    &7Nombre: &f{clan}
+    &7Dueño: &f{owner}
+    &7Creado: &f{created}
+    &7Miembros &f({members}): &a{member_list}
+    {prefix}

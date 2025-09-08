@@ -1,0 +1,14 @@
+name: DeluxeClans
+version: 1.5.5
+main: com.vediikaz.clan.ClanPlugin
+api-version: 1.20
+commands:
+  clan:
+    description: Comando principal del plugin de clanes
+    usage: /<command> <subcomando>
+    aliases: [dcl, deluxeclans]
+
+  permissions:
+    deluxeclans.reload:
+      description: Permite recargar la configuración de DeluxeClans
+      default: op
