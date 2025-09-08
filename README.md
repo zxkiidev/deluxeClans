@@ -1,11 +1,5 @@
-   ____       _                 ____ _                 
-  |  _ \  ___| |_   ___  _____ / ___| | __ _ _ __  ___ 
-  | | | |/ _ \ | | | \ \/ / _ \ |   | |/ _` | '_ \/ __|
-  | |_| |  __/ | |_| |>  <  __/ |___| | (_| | | | \__ \
-  |____/ \___|_|\__,_/_/\_\___|\____|_|\__,_|_| |_|___/
-                                                         
-
-**DeluxeClans** es un plugin ligero y gratuito para servidores de Minecraft que permite a los jugadores crear, unirse y gestionar clanes de manera sencilla.  
+# **DeluxeClans** 
+Es un plugin ligero y gratuito para servidores de Minecraft que permite a los jugadores crear, unirse y gestionar clanes de manera sencilla.  
 
 Creado por **Vediikaz** | Soporte: [Discord](https://discord.gg/VUxkyXzXqN)
 
